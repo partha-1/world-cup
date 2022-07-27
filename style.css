@@ -88,6 +88,7 @@ p {
     background-color: black;
     width: 280px;
     height: 280px;
+    border-radius: 15px;
 }
 
 .link-button {
@@ -99,16 +100,23 @@ p {
     background-color: #FFFFFF;
     border-radius: 10px;
 
+
+
 }
 
 .link-button a {
     text-decoration: none;
     font-size: 20px;
     padding: 5px;
+    color: black;
+}
+
+.link-button:hover {
+    background-color: red;
 }
 
 .link-button.some-change {
-    background-color: #DD0000;
+    background-color: red;
     color: black;
 }
 
@@ -117,6 +125,8 @@ p {
 }
 
 /* side menu end*/
+
+
 
 /* players section  */
 
@@ -189,6 +199,7 @@ p {
 
 }
 
+/* players section  end*/
 
 
 
@@ -245,10 +256,12 @@ hr {
 
 }
 
+/* footer  section*/
+
+
 
 
 /* media queries  */
-
 
 /* mobile devices  */
 
